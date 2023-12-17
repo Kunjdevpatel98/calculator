@@ -1,0 +1,37 @@
+body{
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+     background: url(abc-img.webp);
+     /* height: 100vh; */
+     background-size: cover;
+
+}
+#main-box{
+     border: 4px groove black;
+     box-shadow: 10px 10px 10px black;
+     width: 320px;
+     justify-content: center;
+     border-radius: 5px;
+     opacity: 0.7;
+}
+#box{
+     margin: 1px;
+     height: 95px;
+     width: 310px;
+     border-radius: 5px;
+     font-size: 40px;
+     background-color: rgb(106, 106, 195);
+     box-shadow: 2px 2px 2px black;
+       
+}
+
+.btn{
+     height: 75px;
+     width: 75px;
+     margin: 1px;
+     border-radius: 5px;
+     font-size: 25px;
+     background-color: rgb(106, 106, 195);
+     box-shadow: 2px 2px 2px black;
+}
